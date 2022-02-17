@@ -1,12 +1,13 @@
 document.getElementById("calculate-button").addEventListener('click', function () {
 
 
-    //    calculate Input
+    //calculate Input
+
     const foodInput = document.getElementById("food-input");
     const rentInput = document.getElementById("rent-input");
     const clothesInput = document.getElementById("clothes-input");
 
-    // calculate total
+    //calculate total
     const expenses = parseFloat(foodInput.value) + parseFloat(rentInput.value) + parseFloat(clothesInput.value);
     const expensesTotal = document.getElementById("expenses-total");
     expensesTotal.innerText = expenses;
@@ -18,9 +19,7 @@ document.getElementById("calculate-button").addEventListener('click', function (
     const balanceAmount = document.getElementById("balance-amount");
     balanceAmount.innerText = balance;
 
-
     // saving Amount
-
 
 
 })
